@@ -1,0 +1,33 @@
+{
+  "news": [
+    {
+      "id": "53d326ff-2ca9-485a-a456-2b5ec89edde9",
+      "title": "Новости на завтра",
+      "content": "Завтра будет солнечно",
+      "image": "https://cdn-icons-png.flaticon.com/512/1042/1042731.png",
+      "createdAt": "2025-08-30T08:04:36.651Z"
+    },
+    {
+      "id": "d006ead3-5cce-408f-b394-b86836da1fdb",
+      "title": "Политика",
+      "content": "Садыр Жапаров наш президент",
+      "image": "https://cdn-icons-png.flaticon.com/512/1042/1042731.png",
+      "createdAt": "2025-08-30T08:05:47.518Z"
+    },
+    {
+      "id": "adb9ca53-86a2-4d7c-aa6d-209470a163b1",
+      "title": "Политика",
+      "content": "Садыр Жапаров наш президент",
+      "image": "https://cdn-icons-png.flaticon.com/512/1042/1042731.png",
+      "createdAt": "2025-08-30T08:11:50.161Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "a7599906-0f74-4d4a-a768-09bea406a331",
+      "newsId": "adb9ca53-86a2-4d7c-aa6d-209470a163b1",
+      "author": "Anonymous",
+      "text": "Очень интересно!"
+    }
+  ]
+}
