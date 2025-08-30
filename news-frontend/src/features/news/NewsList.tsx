@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import NewsItem from '../../components/NewsItem';
-import type { NewsListItem } from '../../types';
+import { useAppDispatch, useAppSelector } from '../../app/hooks';
+import { fetchNews, deleteNews } from './newsSlice';
 
-interface Props {
-    items?: NewsListItem[];
-    loading?: boolean;
-    onDelete?: (id: string) => void;
-}
+const NewsList: React.FC = () => {
+    const dispatch = useAppDispatch();
+    const { items, loading, error } = useAppSelector(state => state.news);
 
-const NewsList: React.FC<Props> = ({ items = [], loading = false, onDelete }) => {
+    useEffect(() => {
+        dispatch(fetchNews());
+    }, [dispatch]);
+
+    const handleDelete = async (id: string) => {
+        if (window.confirm('Are you sure you want to delete this news?')) {
+            await dispatch(deleteNews(id));
+        }
+    };
+
+    if (error) {
+        return <div className="error-message">{error}</div>;
+    }
+
     return (
         <div>
             <div className="page-header">
@@ -22,7 +34,7 @@ const NewsList: React.FC<Props> = ({ items = [], loading = false, onDelete }) =>
             <div className="news-list">
                 {items.length === 0 && !loading ? <p>No news yet.</p> : null}
                 {items.map(item => (
-                    <NewsItem key={item.id} item={item} onDelete={onDelete} />
+                    <NewsItem key={item.id} item={item} onDelete={handleDelete} />
                 ))}
             </div>
         </div>

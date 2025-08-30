@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import AddNews from './pages/AddNews';
 import ViewNews from './pages/ViewNews';
@@ -10,7 +10,9 @@ const App: React.FC = () => {
         <BrowserRouter>
             <header className="app-header">
                 <div className="container">
-                    <h1 className="logo">News</h1>
+                    <Link to="/" className="logo-link">
+                        <h1 className="logo">News</h1>
+                    </Link>
                 </div>
             </header>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import type { NewsListItem } from '../types';
 import { Link } from 'react-router-dom';
+import { getImageUrl } from '../utils/imageUtils';
 
 interface Props {
     item: NewsListItem;
@@ -8,7 +9,7 @@ interface Props {
 }
 
 const NewsItem: React.FC<Props> = ({ item, onDelete }) => {
-    const imgSrc = item.image ? item.image : '/placeholder.png';
+    const imgSrc = getImageUrl(item.image);
 
     return (
         <div className="news-item">

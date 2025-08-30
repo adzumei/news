@@ -20,6 +20,41 @@
       "content": "Садыр Жапаров наш президент",
       "image": "https://cdn-icons-png.flaticon.com/512/1042/1042731.png",
       "createdAt": "2025-08-30T08:11:50.161Z"
+    },
+    {
+      "id": "027b7871-ba2d-4ca9-ae65-56c46ec401e0",
+      "title": "Легенда закончилась",
+      "content": "Ода завершил аниме \"One Piece\". Багги стал королем пиратов",
+      "image": "/images/3903e95b-8cdf-483c-b9b0-9ca0aa843db9.webp",
+      "createdAt": "2025-08-30T11:43:39.591Z"
+    },
+    {
+      "id": "98088e48-7cc0-4319-af53-52f169520bdf",
+      "title": "Горячие новости",
+      "content": "Сегодня в столовой будут продавать пирожки за 25 сом",
+      "image": "https://cdn-icons-png.flaticon.com/512/1042/1042731.png",
+      "createdAt": "2025-08-30T11:47:56.223Z"
+    },
+    {
+      "id": "144b5ce2-9a87-4604-9cd6-b1c0e8e255d6",
+      "title": "Плохие новости",
+      "content": "а",
+      "image": "https://cdn-icons-png.flaticon.com/512/1042/1042731.png",
+      "createdAt": "2025-08-30T12:41:32.291Z"
+    },
+    {
+      "id": "a6ac55c5-bdea-4bc8-8f2c-a2faa63e1e97",
+      "title": "Погода",
+      "content": "Завтра дождик из латяо",
+      "image": "/images/52081620-db17-4536-979c-e208f0572a62.jpg",
+      "createdAt": "2025-08-30T12:55:21.751Z"
+    },
+    {
+      "id": "895e94e3-5bc0-41af-ad6c-de3009078420",
+      "title": "Прошел суд по делу Эмира",
+      "content": "Суд признал Эмира виновным в том, что он периодически игнорит свою девушку. Его приговорили к пожизненному пребыванию под каблуком",
+      "image": "/images/26748604-0d90-4e71-bd8b-6181d399a6f9.jpg",
+      "createdAt": "2025-08-30T13:13:02.792Z"
     }
   ],
   "comments": [
@@ -28,6 +63,30 @@
       "newsId": "adb9ca53-86a2-4d7c-aa6d-209470a163b1",
       "author": "Anonymous",
       "text": "Очень интересно!"
+    },
+    {
+      "id": "06bdc48b-e132-4273-9ab9-def3ffa422b5",
+      "newsId": "027b7871-ba2d-4ca9-ae65-56c46ec401e0",
+      "author": "луффи",
+      "text": "мдаа"
+    },
+    {
+      "id": "061b8242-17e1-4581-8b99-2ff322271270",
+      "newsId": "144b5ce2-9a87-4604-9cd6-b1c0e8e255d6",
+      "author": "Anonymous",
+      "text": "а че такое"
+    },
+    {
+      "id": "b7c2f550-3432-4d48-9d8b-8e998fe3508f",
+      "newsId": "a6ac55c5-bdea-4bc8-8f2c-a2faa63e1e97",
+      "author": "Anonymous",
+      "text": "а почему тогда на фото пирожки"
+    },
+    {
+      "id": "670a05e5-b218-4762-803e-4cb35e415cea",
+      "newsId": "895e94e3-5bc0-41af-ad6c-de3009078420",
+      "author": "а",
+      "text": "справедливо"
     }
   ]
 }
