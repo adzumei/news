@@ -1,0 +1,150 @@
+body {
+  font-family: Inter, system-ui, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #111;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.app-header {
+  background: white;
+  border-bottom: 1px solid #eee;
+  padding: 12px 0;
+}
+
+.logo {
+  margin: 0;
+  color: blue;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.btn {
+  background: white;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.news-list {
+  display: grid;
+  gap: 12px;
+}
+
+.news-item {
+  display: flex;
+  gap: 12px;
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.news-item-img {
+  width: 140px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #eee;
+}
+
+.news-item-body h3 {
+  margin: 0 0 6px 0;
+}
+
+.news-item-date {
+  color: gray;
+  font-size: 12px;
+  margin: 0 0 8px 0;
+}
+
+.news-item-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 8px;
+}
+
+.link.danger {
+  color: red;
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.form {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.form input[type="text"],
+.form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.file-input-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.file-input-text {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.file-input-btn {
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-actions {
+  margin-top: 12px;
+}
+
+.news-view-img {
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 16px 0;
+}
